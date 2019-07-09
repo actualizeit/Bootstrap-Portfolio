@@ -44,69 +44,36 @@
         </div>
       </nav>
 
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-      
       <div class="row align-center">
-          <div class="col-md-10 mx-auto">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-8 col-lg-6 pb-5">
-      
-      
-                          <!--Form with header-->
-      
-                          <form action="mail.php" method="post">
-                              <div class="card border-primary rounded-0">
-                                  <div class="card-header p-0">
-                                      <div class="bg-info text-white text-center py-2">
-                                          <h3><i class="fa fa-envelope"></i> Contact Me</h3>
-                                          <p class="m-0">I'm Happyish to help!</p>
-                                      </div>
-                                  </div>
-                                  <div class="card-body p-3">
-      
-                                      <!--Body-->
-                                      <div class="form-group">
-                                          <div class="input-group mb-2">
-                                              <div class="input-group-prepend">
-                                                  <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
-                                              </div>
-                                              <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
-                                          </div>
-                                      </div>
-                                      <div class="form-group">
-                                          <div class="input-group mb-2">
-                                              <div class="input-group-prepend">
-                                                  <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
-                                              </div>
-                                              <input type="email" class="form-control" id="name" name="email" placeholder="example@gmail.com" required>
-                                          </div>
-                                      </div>
-      
-                                      <div class="form-group">
-                                          <div class="input-group mb-2">
-                                              <div class="input-group-prepend">
-                                                  <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
-                                              </div>
-                                              <textarea class="form-control" placeholder="Whatcha need?" required></textarea>
-                                          </div>
-                                      </div>
-      
-                                      <div class="text-center">
-                                          <input type="submit" value="Submit" class="btn btn-info btn-block rounded-0 py-2">
-                                      </div>
-                                  </div>
-      
-                              </div>
-                          </form>
-                          <!--Form with header-->
-      
-      
+          <div class="col-md-8 mx-auto">
+          <div class="card">
+              <div class="card-body">
+                  <form>
+                      <div class="form-group">
+                        <label for="email">Name</label>
+                        <input type="name" class="form-control" id="name1" aria-describedby="nameHelp" placeholder="John Doe">
+                        <small id="nameHelp" class="form-text text-muted">Cool name bro.</small>
                       </div>
-        </div>
-      </div>
-    </div>
-  </div>
+                      <div class="form-group">
+                          <label for="email">Email</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
+                          <small id="emailHelp" class="form-text text-muted">I'll probably share it with everyone.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          <small id="messageHelp" class="form-text text-muted">Tell me something cool.</small>
+                        </div>
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check this box if you aren't a lameo</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
 
       <footer id="sticky-footer" class="py-4 bg-light text-black-50">
           <div class="container text-center">
